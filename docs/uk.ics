@@ -96,7 +96,7 @@ DTEND:20260929T204500Z
 SUMMARY:Czechia v England - ITV
 LOCATION:Fortuna Arena\, Prague
 DESCRIPTION:Group A3 / Fortuna Arena\, Prague\nUK: ITV1 / ITVX (STV in Sc
- otland)
+ otland)\nResult: Czechia 0-2 England
 CATEGORIES:Nations League,Football
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -108,7 +108,8 @@ DTSTART:20260929T184500Z
 DTEND:20260929T204500Z
 SUMMARY:Scotland v Switzerland - BBC
 LOCATION:Hampden Park\, Glasgow
-DESCRIPTION:Group B1 / Hampden Park\, Glasgow\nUK: BBC / iPlayer
+DESCRIPTION:Group B1 / Hampden Park\, Glasgow\nUK: BBC / iPlayer\nResult:
+  Scotland 0-3 Switzerland
 CATEGORIES:Nations League,Football
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
