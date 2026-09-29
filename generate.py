@@ -3,14 +3,17 @@
 
 data/matches.json holds every Nations League fixture of the season, refreshed by
 fetch.py. Only games that are live on free UK TV go into the calendar, and the
-channel follows the rights split (by nation, not picked game by game):
+channel follows the rights split (by nation, not picked game by game; ITV and
+the BBC hold these through June 2028):
 
   England                            -> ITV  (ITV1 / ITVX, STV in Scotland)
   Scotland, Wales, Northern Ireland  -> BBC  (iPlayer; Wales also on S4C)
-  the Final                          -> ITV, whoever reaches it
 
-data/broadcasters.json "overrides" (keyed by match id) beat the rule - e.g. for a
-home-nation derby or a late channel change. {"uk": ""} drops a match.
+Every other game is Prime Video pay-per-view in the UK, so it's left out.
+
+data/broadcasters.json "overrides" (keyed by match id) beat the rule - e.g. to
+add the June 2027 final once a free-to-air deal is announced (ITV had it in
+2025), for a home-nation derby, or a late channel change. {"uk": ""} drops a match.
 
 Output is deterministic (DTSTAMP = DTSTART), so re-running with unchanged input
 produces byte-identical files and the update workflow only commits real changes.
@@ -31,7 +34,7 @@ PRODID = "-//taro-arumakan//NationsLeague//EN"
 FEED = "uk.ics"
 CALNAME = "Nations League ⚽ UK TV (BBC/ITV)"
 CALDESC = ("UEFA Nations League - every game that's live on free UK TV: England on ITV; "
-           "Scotland, Wales & Northern Ireland on BBC (Wales also on S4C); the final on ITV. "
+           "Scotland, Wales & Northern Ireland on BBC (Wales also on S4C). "
            "Kickoffs auto-convert to your local time.")
 
 ITV_TEAMS = {"england"}
@@ -54,7 +57,7 @@ def uk_channel(m, overrides):
         uk = ex.get("uk") or None
         return uk, ex.get("detail") or (uk and default_detail(uk, m))
     t = teams_of(m)
-    if m["stage"] == "Final" or t & ITV_TEAMS:
+    if t & ITV_TEAMS:
         uk = "ITV"
     elif t & BBC_TEAMS:
         uk = "BBC"

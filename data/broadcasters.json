@@ -1,4 +1,4 @@
 {
-  "_comment": "UK channels follow the rights split in generate.py (England -> ITV; Scotland, Wales, Northern Ireland -> BBC, Wales also on S4C; the Final -> ITV). Add a per-match exception here, keyed by the match id in data/matches.json: {\"uk\": \"BBC\", \"detail\": \"BBC One / iPlayer\"}. {\"uk\": \"\"} drops a match from the calendar.",
+  "_comment": "UK channels follow the rights split in generate.py (England -> ITV; Scotland, Wales, Northern Ireland -> BBC, Wales also on S4C). Add a per-match exception here, keyed by the match id in data/matches.json - e.g. the June 2027 final once its UK broadcaster is announced: {\"uk\": \"ITV\"}, or {\"uk\": \"BBC\", \"detail\": \"BBC One / iPlayer\"}. {\"uk\": \"\"} drops a match from the calendar.",
   "overrides": {}
 }

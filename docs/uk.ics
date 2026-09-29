@@ -7,7 +7,7 @@ X-WR-CALNAME:Nations League ⚽ UK TV (BBC/ITV)
 X-WR-TIMEZONE:UTC
 X-WR-CALDESC:UEFA Nations League - every game that's live on free UK TV: 
  England on ITV\; Scotland\, Wales & Northern Ireland on BBC (Wales also 
- on S4C)\; the final on ITV. Kickoffs auto-convert to your local time.
+ on S4C). Kickoffs auto-convert to your local time.
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
