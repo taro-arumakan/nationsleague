@@ -1,0 +1,320 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//taro-arumakan//NationsLeague//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Nations League ⚽ UK TV (BBC/ITV)
+X-WR-TIMEZONE:UTC
+X-WR-CALDESC:UEFA Nations League - every game that's live on free UK TV: 
+ England on ITV\; Scotland\, Wales & Northern Ireland on BBC (Wales also 
+ on S4C)\; the final on ITV. Kickoffs auto-convert to your local time.
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:unl-2048002@nationsleague-calendar
+DTSTAMP:20260924T184500Z
+DTSTART:20260924T184500Z
+DTEND:20260924T204500Z
+SUMMARY:Portugal v Wales - BBC
+LOCATION:Estádio José Alvalade\, Lisbon
+DESCRIPTION:Group A4 / Estádio José Alvalade\, Lisbon\nUK: BBC / iPlaye
+ r | S4C (in Welsh)\nResult: Portugal 1-0 Wales
+CATEGORIES:Nations League,Football
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-2048014@nationsleague-calendar
+DTSTAMP:20260925T160000Z
+DTSTART:20260925T160000Z
+DTEND:20260925T180000Z
+SUMMARY:Georgia v Northern Ireland - BBC
+LOCATION:Boris Paichadze National Stadium\, Tbilisi
+DESCRIPTION:Group B2 / Boris Paichadze National Stadium\, Tbilisi\nUK: BB
+ C / iPlayer\nResult: Georgia 0-1 Northern Ireland
+CATEGORIES:Nations League,Football
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-2048027@nationsleague-calendar
+DTSTAMP:20260926T130000Z
+DTSTART:20260926T130000Z
+DTEND:20260926T150000Z
+SUMMARY:Slovenia v Scotland - BBC
+LOCATION:Stadion Stožice\, Ljubljana
+DESCRIPTION:Group B1 / Stadion Stožice\, Ljubljana\nUK: BBC / iPlayer\nR
+ esult: Slovenia 0-0 Scotland
+CATEGORIES:Nations League,Football
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-2048018@nationsleague-calendar
+DTSTAMP:20260926T184500Z
+DTSTART:20260926T184500Z
+DTEND:20260926T204500Z
+SUMMARY:England v Spain - ITV
+LOCATION:Wembley Stadium\, London
+DESCRIPTION:Group A3 / Wembley Stadium\, London\nUK: ITV1 / ITVX (STV in 
+ Scotland)\nResult: England 2-3 Spain
+CATEGORIES:Nations League,Football
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-2047977@nationsleague-calendar
+DTSTAMP:20260927T160000Z
+DTSTART:20260927T160000Z
+DTEND:20260927T180000Z
+SUMMARY:Denmark v Wales - BBC
+LOCATION:Parken\, Copenhagen
+DESCRIPTION:Group A4 / Parken\, Copenhagen\nUK: BBC / iPlayer | S4C (in W
+ elsh)\nResult: Denmark 2-0 Wales
+CATEGORIES:Nations League,Football
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-2047986@nationsleague-calendar
+DTSTAMP:20260928T184500Z
+DTSTART:20260928T184500Z
+DTEND:20260928T204500Z
+SUMMARY:Northern Ireland v Hungary - BBC
+LOCATION:Clearer Twist National Stadium at Windsor Park\, Belfast
+DESCRIPTION:Group B2 / Clearer Twist National Stadium at Windsor Park\, B
+ elfast\nUK: BBC / iPlayer\nResult: Northern Ireland 0-0 Hungary
+CATEGORIES:Nations League,Football
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-2048000@nationsleague-calendar
+DTSTAMP:20260929T184500Z
+DTSTART:20260929T184500Z
+DTEND:20260929T204500Z
+SUMMARY:Czechia v England - ITV
+LOCATION:Fortuna Arena\, Prague
+DESCRIPTION:Group A3 / Fortuna Arena\, Prague\nUK: ITV1 / ITVX (STV in Sc
+ otland)
+CATEGORIES:Nations League,Football
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-2048001@nationsleague-calendar
+DTSTAMP:20260929T184500Z
+DTSTART:20260929T184500Z
+DTEND:20260929T204500Z
+SUMMARY:Scotland v Switzerland - BBC
+LOCATION:Hampden Park\, Glasgow
+DESCRIPTION:Group B1 / Hampden Park\, Glasgow\nUK: BBC / iPlayer
+CATEGORIES:Nations League,Football
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-2047950@nationsleague-calendar
+DTSTAMP:20261001T184500Z
+DTSTART:20261001T184500Z
+DTEND:20261001T204500Z
+SUMMARY:Wales v Norway - BBC
+LOCATION:Cardiff City Stadium\, Cardiff
+DESCRIPTION:Group A4 / Cardiff City Stadium\, Cardiff\nUK: BBC / iPlayer 
+ | S4C (in Welsh)
+CATEGORIES:Nations League,Football
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-2047959@nationsleague-calendar
+DTSTAMP:20261002T184500Z
+DTSTART:20261002T184500Z
+DTEND:20261002T204500Z
+SUMMARY:Ukraine v Northern Ireland - BBC
+LOCATION:Štadión Antona Malatinského\, Trnava
+DESCRIPTION:Group B2 / Štadión Antona Malatinského\, Trnava\nUK: BBC /
+  iPlayer
+CATEGORIES:Nations League,Football
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-2047968@nationsleague-calendar
+DTSTAMP:20261003T160000Z
+DTSTART:20261003T160000Z
+DTEND:20261003T180000Z
+SUMMARY:Croatia v England - ITV
+LOCATION:Stadion HNK Rijeka\, Rijeka
+DESCRIPTION:Group A3 / Stadion HNK Rijeka\, Rijeka\nUK: ITV1 / ITVX (STV 
+ in Scotland)
+CATEGORIES:Nations League,Football
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-2047975@nationsleague-calendar
+DTSTAMP:20261003T184500Z
+DTSTART:20261003T184500Z
+DTEND:20261003T204500Z
+SUMMARY:North Macedonia v Scotland - BBC
+LOCATION:National Arena Todor Proeski\, Skopje
+DESCRIPTION:Group B1 / National Arena Todor Proeski\, Skopje\nUK: BBC / i
+ Player
+CATEGORIES:Nations League,Football
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-2047930@nationsleague-calendar
+DTSTAMP:20261004T184500Z
+DTSTART:20261004T184500Z
+DTEND:20261004T204500Z
+SUMMARY:Wales v Denmark - BBC
+LOCATION:Cardiff City Stadium\, Cardiff
+DESCRIPTION:Group A4 / Cardiff City Stadium\, Cardiff\nUK: BBC / iPlayer 
+ | S4C (in Welsh)
+CATEGORIES:Nations League,Football
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-2047934@nationsleague-calendar
+DTSTAMP:20261005T184500Z
+DTSTART:20261005T184500Z
+DTEND:20261005T204500Z
+SUMMARY:Northern Ireland v Georgia - BBC
+LOCATION:Clearer Twist National Stadium at Windsor Park\, Belfast
+DESCRIPTION:Group B2 / Clearer Twist National Stadium at Windsor Park\, B
+ elfast\nUK: BBC / iPlayer
+CATEGORIES:Nations League,Football
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-2047947@nationsleague-calendar
+DTSTAMP:20261006T184500Z
+DTSTART:20261006T184500Z
+DTEND:20261006T204500Z
+SUMMARY:England v Czechia - ITV
+LOCATION:Wembley Stadium\, London
+DESCRIPTION:Group A3 / Wembley Stadium\, London\nUK: ITV1 / ITVX (STV in 
+ Scotland)
+CATEGORIES:Nations League,Football
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-2047948@nationsleague-calendar
+DTSTAMP:20261006T184500Z
+DTSTART:20261006T184500Z
+DTEND:20261006T204500Z
+SUMMARY:Scotland v Slovenia - BBC
+LOCATION:Hampden Park\, Glasgow
+DESCRIPTION:Group B1 / Hampden Park\, Glasgow\nUK: BBC / iPlayer
+CATEGORIES:Nations League,Football
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-2047879@nationsleague-calendar
+DTSTAMP:20261112T194500Z
+DTSTART:20261112T194500Z
+DTEND:20261112T214500Z
+SUMMARY:England v Croatia - ITV
+LOCATION:Wembley Stadium\, London
+DESCRIPTION:Group A3 / Wembley Stadium\, London\nUK: ITV1 / ITVX (STV in 
+ Scotland)
+CATEGORIES:Nations League,Football
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-2047888@nationsleague-calendar
+DTSTAMP:20261113T194500Z
+DTSTART:20261113T194500Z
+DTEND:20261113T214500Z
+SUMMARY:Scotland v North Macedonia - BBC
+LOCATION:Hampden Park\, Glasgow
+DESCRIPTION:Group B1 / Hampden Park\, Glasgow\nUK: BBC / iPlayer
+CATEGORIES:Nations League,Football
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-2047893@nationsleague-calendar
+DTSTAMP:20261114T170000Z
+DTSTART:20261114T170000Z
+DTEND:20261114T190000Z
+SUMMARY:Norway v Wales - BBC
+LOCATION:Ullevaal Stadion\, Oslo
+DESCRIPTION:Group A4 / Ullevaal Stadion\, Oslo\nUK: BBC / iPlayer | S4C (
+ in Welsh)
+CATEGORIES:Nations League,Football
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-2047897@nationsleague-calendar
+DTSTAMP:20261114T194500Z
+DTSTART:20261114T194500Z
+DTEND:20261114T214500Z
+SUMMARY:Northern Ireland v Ukraine - BBC
+LOCATION:Clearer Twist National Stadium at Windsor Park\, Belfast
+DESCRIPTION:Group B2 / Clearer Twist National Stadium at Windsor Park\, B
+ elfast\nUK: BBC / iPlayer
+CATEGORIES:Nations League,Football
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-2047904@nationsleague-calendar
+DTSTAMP:20261115T194500Z
+DTSTART:20261115T194500Z
+DTEND:20261115T214500Z
+SUMMARY:Spain v England - ITV
+LOCATION:Wanda Metropolitano\, Madrid
+DESCRIPTION:Group A3 / Wanda Metropolitano\, Madrid\nUK: ITV1 / ITVX (STV
+  in Scotland)
+CATEGORIES:Nations League,Football
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-2047914@nationsleague-calendar
+DTSTAMP:20261116T194500Z
+DTSTART:20261116T194500Z
+DTEND:20261116T214500Z
+SUMMARY:Switzerland v Scotland - BBC
+LOCATION:Kybunpark\, St.Gallen
+DESCRIPTION:Group B1 / Kybunpark\, St.Gallen\nUK: BBC / iPlayer
+CATEGORIES:Nations League,Football
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-2047920@nationsleague-calendar
+DTSTAMP:20261117T194500Z
+DTSTART:20261117T194500Z
+DTEND:20261117T214500Z
+SUMMARY:Wales v Portugal - BBC
+LOCATION:Cardiff City Stadium\, Cardiff
+DESCRIPTION:Group A4 / Cardiff City Stadium\, Cardiff\nUK: BBC / iPlayer 
+ | S4C (in Welsh)
+CATEGORIES:Nations League,Football
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:unl-2047921@nationsleague-calendar
+DTSTAMP:20261117T194500Z
+DTSTART:20261117T194500Z
+DTEND:20261117T214500Z
+SUMMARY:Hungary v Northern Ireland - BBC
+LOCATION:Puskás Aréna\, Budapest
+DESCRIPTION:Group B2 / Puskás Aréna\, Budapest\nUK: BBC / iPlayer
+CATEGORIES:Nations League,Football
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

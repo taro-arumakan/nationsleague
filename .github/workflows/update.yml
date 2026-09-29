@@ -1,0 +1,48 @@
+name: Update calendar
+
+# Refresh Nations League fixtures/scores and regenerate docs/uk.ics. Output is
+# deterministic, so a commit happens only when something actually changed.
+# Channels follow the by-nation rule in generate.py; per-match exceptions are
+# added by hand in data/broadcasters.json and picked up on the next run.
+
+on:
+  schedule:
+    - cron: '23 */6 * * *'   # every 6 hours
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-calendar
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Refresh fixtures
+        run: python3 fetch.py
+
+      - name: Regenerate calendar
+        run: python3 generate.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- docs data; then
+            git add docs data
+            git commit -m "Auto-update: refresh fixtures & scores"
+            git push
+            echo "Published updated feed."
+          elif [ $(( $(date +%s) - $(git log -1 --format=%ct) )) -gt $(( 50 * 86400 )) ]; then
+            # GitHub pauses scheduled workflows after 60 days without repo
+            # activity, and the gaps between international windows are longer.
+            git commit --allow-empty -m "Keepalive: no fixture changes for 50 days"
+            git push
+          else
+            echo "No changes - feed already current."
+          fi

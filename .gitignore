@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Keys / credentials - never commit these; use GitHub Actions secrets instead
+.env
+.secrets/
+credentials.json
+*service-account*.json

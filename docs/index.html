@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nations League Game Calendar</title>
+<meta name="description" content="A subscribable calendar of every UEFA Nations League game on free UK TV (England on ITV; Scotland, Wales and Northern Ireland on the BBC) in your local time, with scores and knockout ties filled in automatically.">
+<style>
+  :root{
+    --bg:#0f1115; --card:#181b22; --line:#2a2f3a; --fg:#e8eaed; --muted:#9aa3b2;
+    --accent:#19b35b; --accent2:#2b6cff; --chip:#222732;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#f5f6f8; --card:#ffffff; --line:#e4e7ec; --fg:#1a1d23; --muted:#5b6470; --chip:#eef1f6; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);
+       font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+  .wrap{max-width:780px;margin:0 auto;padding:32px 20px 64px}
+  h1{font-size:1.9rem;line-height:1.2;margin:.2em 0}
+  h2{font-size:1.15rem;margin:2.2em 0 .6em;border-bottom:1px solid var(--line);padding-bottom:.3em}
+  p{color:var(--fg)} .muted{color:var(--muted)}
+  .sub{color:var(--muted);font-size:1.05rem;margin-top:0}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin:16px 0}
+  .card h3{margin:.1em 0 .2em;font-size:1.15rem}
+  .who{color:var(--muted);font-size:.9rem;margin:.1em 0 .7em}
+  .eg{font-size:.92rem;background:var(--chip);border:1px solid var(--line);border-radius:8px;
+      padding:8px 11px;margin:.5em 0;display:inline-block}
+  .btn{display:inline-block;text-decoration:none;font-weight:600;border-radius:10px;
+       padding:11px 18px;margin:8px 8px 4px 0;border:1px solid var(--line)}
+  .btn-main{background:var(--accent);color:#fff;border-color:transparent}
+  .btn-2{background:var(--chip);color:var(--fg)}
+  .urlbox{display:flex;gap:8px;align-items:center;background:var(--chip);border:1px solid var(--line);
+          border-radius:10px;padding:8px 10px;margin:8px 0 2px;overflow:auto}
+  .url{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.82rem;white-space:nowrap}
+  button.copy{cursor:pointer;background:var(--accent2);color:#fff;border:none;border-radius:8px;padding:7px 11px;font-weight:600}
+  .legend li{margin:.35em 0}
+  .pill{display:inline-block;background:var(--chip);border:1px solid var(--line);border-radius:999px;
+        padding:2px 10px;font-size:.85rem;margin:2px 4px 2px 0}
+  footer{color:var(--muted);font-size:.85rem;margin-top:40px;border-top:1px solid var(--line);padding-top:16px}
+  a{color:var(--accent2)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>⚽ Nations League Game Calendar</h1>
+  <p class="sub">Every UEFA Nations League game you can watch <strong>free</strong> in the UK, in <strong>your</strong> local time. Subscribe once.</p>
+  <p class="muted">The channel depends on who's playing, so every game is labelled from day one: <strong>England</strong> on <strong>ITV</strong>; <strong>Scotland</strong>, <strong>Wales</strong> and <strong>Northern Ireland</strong> on the <strong>BBC</strong> (Wales also on S4C); the June <strong>final</strong> on <strong>ITV</strong>, whoever reaches it. Scores and knockout ties fill in automatically.</p>
+
+  <div class="card">
+    <h3>UK free-to-air <span class="muted" style="font-weight:400">BBC / ITV</span></h3>
+    <p class="who">The home nations' games plus the final, each tagged with its channel.</p>
+    <span class="eg">England v Spain - ITV</span> <span class="eg">Portugal v Wales - BBC</span>
+    <div>
+      <a class="btn btn-main" href="webcal://yadot.sniarti.fi/nationsleague/uk.ics">📲 Subscribe</a>
+      <a class="btn btn-2" href="uk.ics" download>⬇️ .ics</a>
+    </div>
+    <div class="urlbox"><span class="url" id="u-uk">https://yadot.sniarti.fi/nationsleague/uk.ics</span>
+      <button class="copy" onclick="cp(this,'u-uk')">Copy</button></div>
+  </div>
+
+  <h2>How to subscribe</h2>
+  <p><strong>iPhone / iPad / Mac</strong> <span class="muted">→ tap “Subscribe” → Add. (Mac: File ▸ New Calendar Subscription, paste the URL.)</span></p>
+  <p><strong>Google Calendar</strong> <span class="muted">(desktop) → Other calendars ▸ + ▸ <em>From URL</em> → paste the feed URL → Add. Then it syncs to the app on Android/iPhone.</span></p>
+  <p><strong>Outlook</strong> <span class="muted">→ Add calendar ▸ Subscribe from web → paste the URL.</span></p>
+
+  <h2>Notes</h2>
+  <ul class="legend">
+    <li><strong>ITV</strong> = ITV1 / ITVX (STV in Scotland) | <strong>BBC</strong> = BBC TV / iPlayer. Wales games are also on <strong>S4C</strong>, in Welsh.</li>
+    <li>Games without a home nation aren't on free UK TV, so they're not in this calendar.</li>
+    <li><strong>Knockouts:</strong> a home nation's quarter-final or promotion/relegation play-off (March 2027) and Finals games (June 2027) appear as soon as the tie is set. The final is always in.</li>
+    <li>⏱️ Kickoffs are stored in UTC and shown in <strong>your device's own time zone</strong>.</li>
+  </ul>
+  <p><span class="pill">2026/27</span><span class="pill">League phase: Sep – Nov 2026</span><span class="pill">Finals: June 2027</span></p>
+
+  <footer>
+    Fixtures, kickoff times &amp; results from <a href="https://www.uefa.com/uefanationsleague/">uefa.com</a>, refreshed every 6 hours.
+    Channels follow the 2026/27 UK rights split and can change - verify before kickoff.
+    <br>Source &amp; corrections: <a href="https://github.com/taro-arumakan/nationsleague">github.com/taro-arumakan/nationsleague</a>.
+  </footer>
+
+</div>
+<script>
+function cp(btn,id){
+  navigator.clipboard.writeText(document.getElementById(id).textContent)
+    .then(()=>{const t=btn.textContent;btn.textContent='Copied ✓';setTimeout(()=>btn.textContent=t,1500)});
+}
+</script>
+<!-- Cloudflare Web Analytics -->
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js'
+        data-cf-beacon='{"token": "69e599b947604a38b35b87f4d21ff52b"}'></script>
+<!-- End Cloudflare Web Analytics -->
+</body>
+</html>
