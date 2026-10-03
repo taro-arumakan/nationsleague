@@ -70,7 +70,7 @@
 {"away": "Romania", "city": "Warsaw", "home": "Poland", "id": "2047963", "kickoff": "2026-10-02T18:45:00Z", "label": "Group B4", "score": "6-0", "stage": "League phase", "venue": "PGE Narodowy"},
 {"away": "Sweden", "city": "Zenica", "home": "Bosnia and Herzegovina", "id": "2047964", "kickoff": "2026-10-02T18:45:00Z", "label": "Group B4", "score": "1-1", "stage": "League phase", "venue": "Stadion Bilino Polje"},
 {"away": "Slovakia", "city": "Tórshavn", "home": "Faroe Islands", "id": "2047965", "kickoff": "2026-10-02T18:45:00Z", "label": "Group C3", "score": "1-1", "stage": "League phase", "venue": "Tórsvøllur"},
-{"away": "Albania", "city": "Helsinki", "home": "Finland", "id": "2047970", "kickoff": "2026-10-03T13:00:00Z", "label": "Group C1", "stage": "League phase", "venue": "Helsinki Olympic Stadium"},
+{"away": "Albania", "city": "Helsinki", "home": "Finland", "id": "2047970", "kickoff": "2026-10-03T13:00:00Z", "label": "Group C1", "score": "2-1", "stage": "League phase", "venue": "Helsinki Olympic Stadium"},
 {"away": "England", "city": "Rijeka", "home": "Croatia", "id": "2047968", "kickoff": "2026-10-03T16:00:00Z", "label": "Group A3", "stage": "League phase", "venue": "Stadion HNK Rijeka"},
 {"away": "Bulgaria", "city": "Reykjavik", "home": "Iceland", "id": "2047969", "kickoff": "2026-10-03T16:00:00Z", "label": "Group C4", "stage": "League phase", "venue": "Laugardalsvöllur"},
 {"away": "San Marino", "city": "Budapest", "home": "Belarus", "id": "2047973", "kickoff": "2026-10-03T16:00:00Z", "label": "Group C1", "stage": "League phase", "venue": "Illovszky Rudolf Stadion"},
