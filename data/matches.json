@@ -94,7 +94,7 @@
 {"away": "Belgium", "city": "Saint-Denis", "home": "France", "id": "2047937", "kickoff": "2026-10-05T18:45:00Z", "label": "Group A1", "score": "4-1", "stage": "League phase", "venue": "Stade de France"},
 {"away": "Türki̇ye", "city": "Bologna", "home": "Italy", "id": "2047938", "kickoff": "2026-10-05T18:45:00Z", "label": "Group A1", "score": "3-1", "stage": "League phase", "venue": "Stadio Renato Dall'Ara"},
 {"away": "Poland", "city": "Zenica", "home": "Bosnia and Herzegovina", "id": "2047939", "kickoff": "2026-10-05T18:45:00Z", "label": "Group B4", "score": "1-0", "stage": "League phase", "venue": "Stadion Bilino Polje"},
-{"away": "Faroe Islands", "city": "Astana", "home": "Kazakhstan", "id": "2047949", "kickoff": "2026-10-06T14:00:00Z", "label": "Group C3", "stage": "League phase", "venue": "Astana Arena"},
+{"away": "Faroe Islands", "city": "Astana", "home": "Kazakhstan", "id": "2047949", "kickoff": "2026-10-06T14:00:00Z", "label": "Group C3", "score": "2-2", "stage": "League phase", "venue": "Astana Arena"},
 {"away": "North Macedonia", "city": "Lucerne", "home": "Switzerland", "id": "2047940", "kickoff": "2026-10-06T18:45:00Z", "label": "Group B1", "stage": "League phase", "venue": "Thermoplan Arena"},
 {"away": "San Marino", "city": "Tirana", "home": "Albania", "id": "2047941", "kickoff": "2026-10-06T18:45:00Z", "label": "Group C1", "stage": "League phase", "venue": "Air Albania Stadium"},
 {"away": "Finland", "city": "Budapest", "home": "Belarus", "id": "2047942", "kickoff": "2026-10-06T18:45:00Z", "label": "Group C1", "stage": "League phase", "venue": "Illovszky Rudolf Stadion"},
