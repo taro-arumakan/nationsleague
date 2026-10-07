@@ -200,7 +200,7 @@ DTEND:20261006T204500Z
 SUMMARY:England v Czechia - ITV
 LOCATION:Wembley Stadium\, London
 DESCRIPTION:Group A3 / Wembley Stadium\, London\nUK: ITV1 / ITVX (STV in 
- Scotland)
+ Scotland)\nResult: England 3-0 Czechia
 CATEGORIES:Nations League,Football
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -212,7 +212,8 @@ DTSTART:20261006T184500Z
 DTEND:20261006T204500Z
 SUMMARY:Scotland v Slovenia - BBC
 LOCATION:Hampden Park\, Glasgow
-DESCRIPTION:Group B1 / Hampden Park\, Glasgow\nUK: BBC / iPlayer
+DESCRIPTION:Group B1 / Hampden Park\, Glasgow\nUK: BBC / iPlayer\nResult:
+  Scotland 1-2 Slovenia
 CATEGORIES:Nations League,Football
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
