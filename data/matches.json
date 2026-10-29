@@ -121,7 +121,7 @@
 {"away": "Greece", "city": "Amsterdam", "home": "Netherlands", "id": "2047886", "kickoff": "2026-11-13T19:45:00Z", "label": "Group A2", "stage": "League phase", "venue": "Johan Cruijff ArenA"},
 {"away": "Germany", "city": "Belgrade", "home": "Serbia", "id": "2047887", "kickoff": "2026-11-13T19:45:00Z", "label": "Group A2", "stage": "League phase", "venue": "Stadion Rajko Mitić"},
 {"away": "North Macedonia", "city": "Glasgow", "home": "Scotland", "id": "2047888", "kickoff": "2026-11-13T19:45:00Z", "label": "Group B1", "stage": "League phase", "venue": "Hampden Park"},
-{"away": "Switzerland", "city": "Ljubljana", "home": "Slovenia", "id": "2047889", "kickoff": "2026-11-13T19:45:00Z", "label": "Group B1", "stage": "League phase", "venue": "Stadion Stožice"},
+{"away": "Switzerland", "city": "Maribor", "home": "Slovenia", "id": "2047889", "kickoff": "2026-11-13T19:45:00Z", "label": "Group B1", "stage": "League phase", "venue": "Stadion Ljudski vrt"},
 {"away": "Israel", "city": "Pristina", "home": "Kosovo", "id": "2047896", "kickoff": "2026-11-14T14:00:00Z", "label": "Group B3", "stage": "League phase", "venue": "Stadiumi Fadil Vokrri"},
 {"away": "Wales", "city": "Oslo", "home": "Norway", "id": "2047893", "kickoff": "2026-11-14T17:00:00Z", "label": "Group A4", "stage": "League phase", "venue": "Ullevaal Stadion"},
 {"away": "Hungary", "city": "Tbilisi", "home": "Georgia", "id": "2047895", "kickoff": "2026-11-14T17:00:00Z", "label": "Group B2", "stage": "League phase", "venue": "Mikheil Meskhi Stadium"},
