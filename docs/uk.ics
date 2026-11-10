@@ -68,9 +68,9 @@ DTSTAMP:20260927T160000Z
 DTSTART:20260927T160000Z
 DTEND:20260927T180000Z
 SUMMARY:Denmark v Wales - BBC
-LOCATION:Parken\, Copenhagen
-DESCRIPTION:Group A4 / Parken\, Copenhagen\nUK: BBC / iPlayer | S4C (in W
- elsh)\nResult: Denmark 2-0 Wales
+LOCATION:Parken – Connected by 3\, Copenhagen
+DESCRIPTION:Group A4 / Parken – Connected by 3\, Copenhagen\nUK: BBC / 
+ iPlayer | S4C (in Welsh)\nResult: Denmark 2-0 Wales
 CATEGORIES:Nations League,Football
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -275,9 +275,9 @@ DTSTAMP:20261115T194500Z
 DTSTART:20261115T194500Z
 DTEND:20261115T214500Z
 SUMMARY:Spain v England - ITV
-LOCATION:Wanda Metropolitano\, Madrid
-DESCRIPTION:Group A3 / Wanda Metropolitano\, Madrid\nUK: ITV1 / ITVX (STV
-  in Scotland)
+LOCATION:Riyadh Air Metropolitano\, Madrid
+DESCRIPTION:Group A3 / Riyadh Air Metropolitano\, Madrid\nUK: ITV1 / ITVX
+  (STV in Scotland)
 CATEGORIES:Nations League,Football
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -288,8 +288,8 @@ DTSTAMP:20261116T194500Z
 DTSTART:20261116T194500Z
 DTEND:20261116T214500Z
 SUMMARY:Switzerland v Scotland - BBC
-LOCATION:Kybunpark\, St.Gallen
-DESCRIPTION:Group B1 / Kybunpark\, St.Gallen\nUK: BBC / iPlayer
+LOCATION:Berit Sitterstadion\, St.Gallen
+DESCRIPTION:Group B1 / Berit Sitterstadion\, St.Gallen\nUK: BBC / iPlayer
 CATEGORIES:Nations League,Football
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
