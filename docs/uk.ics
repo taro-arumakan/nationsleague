@@ -238,7 +238,8 @@ DTSTART:20261113T194500Z
 DTEND:20261113T214500Z
 SUMMARY:Scotland v North Macedonia - BBC
 LOCATION:Hampden Park\, Glasgow
-DESCRIPTION:Group B1 / Hampden Park\, Glasgow\nUK: BBC / iPlayer
+DESCRIPTION:Group B1 / Hampden Park\, Glasgow\nUK: BBC / iPlayer\nResult:
+  Scotland 2-1 North Macedonia
 CATEGORIES:Nations League,Football
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
